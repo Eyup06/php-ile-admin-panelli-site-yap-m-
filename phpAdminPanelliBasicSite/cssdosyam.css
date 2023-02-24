@@ -1,0 +1,105 @@
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+   
+  .menu li{
+    float: left;
+    position: relative;
+    width: 200px;
+  }
+   
+  .menu ul li ul{
+    display: none;
+  }
+   
+  .menu ul li:hover ul{
+    display: block;
+  }
+   
+  .menu ul li a{
+    text-decoration: none;
+    background:darkred;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom: 2px solid red;
+    border-left: 1px solid #595959;
+    padding: 5px;
+  }
+   
+  .menu ul li ul li a{
+    background: #595959;
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    font-size: .8em;
+  }
+   
+  .menu li a:hover{
+    background: rgb(248,140,0);
+    transition: .5s;
+  }
+   
+  .menu ul li ul li a:hover{
+    padding-left: 15px;
+    
+  }
+
+  .baslik{
+      background-color: darkred;
+      color: snow;
+      padding: 10px;
+      text-align: center;
+  }
+
+  
+ .ortala{
+  
+  margin:0 auto;text-align:center; width:960px;
+ }
+
+ .input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
